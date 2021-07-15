@@ -1,0 +1,29 @@
+rm -force .git
+deletes .git
+
+git config --list
+shows the configiration list of the git including username and email
+
+git config --global user.name emadsaadi9
+confuguers the username
+
+git config --global user.email  emadsaadi9@gmail.com
+confuguers the email
+
+git remote
+The git remote command lets you create, view, and delete connections to other repositories
+
+git remote add origin https://github.com/emadsaadi9/jQueryUIEmad.git
+connects to the repository
+
+git add .
+The git add command adds a change in the working directory to the staging area
+
+git commit -m "First commit. jQuery demo this message is what I changed in this version"
+The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project
+
+git push -u origin master
+The git push command is used to upload local repository content to a remote repository.
+
+git status
+The git status command displays the state of the working directory and the staging area
