@@ -9,7 +9,7 @@ $( function() {
     } );
 
 
-//test GIT change
+//test GIT change test
 
 
 } );
